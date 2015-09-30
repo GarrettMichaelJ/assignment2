@@ -1,0 +1,84 @@
+/* style.scss */
+
+@import 'venders/_bootstrap.scss';
+
+$bgColor:#B1C6B8;
+$textColor: #fff;
+
+
+body {
+    background: $bgColor;
+    color: $textColor;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2{
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+.profile {
+    margin-top: 2%;
+    width:16%;
+    margin-left: 42%;
+}
+    
+    
+
+.container {
+    background: #9EC3D0;
+    padding: 0 30px 30px 30px;
+    width: 90%;
+    
+}
+
+.profile-img{
+    width: 160px;
+    display: block;
+    margin:auto;
+}
+
+.contact-list li{
+    list-style: none;
+}
+
+.media{
+   // background:  $bgColor;
+}
+
+.media-left{
+    width:1000px;
+}
+
+.socialmedia li {
+    list-style-type: none;
+    display:inline;
+    padding-right: 10px;
+}
+
+#footer {
+    width: 90%;
+    margin-left: 5%;
+    background-color: #6DA6DD;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {  
+}
+
+@media (max-width: 1000px) {
+}
+
+@media (max-width: 1000px) {
+}
+
+
+
+
+
